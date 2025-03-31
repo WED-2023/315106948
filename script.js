@@ -29,5 +29,5 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     let emailBody = `Email: ${email}%0D%0A%0D%0AMessage: ${message} ${emoji}`;
 
     // Open email client
-    window.location.href = `mailto:your-email@example.com?subject=${emailSubject}&body=${emailBody}`;
+    window.location.href = `mailto:avivyuv@post.bgu.ac.il?subject=${emailSubject}&body=${emailBody}`;
 });
